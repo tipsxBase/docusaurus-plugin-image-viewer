@@ -1,0 +1,10 @@
+{
+  "name": "docusaurus-plugin-image-viewer",
+  "version": "1.0.1",
+  "description": "docusaurus插件,集成viewerjs,优化图片展示",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "viewerjs": "^1.11.6"
+  }
+}
