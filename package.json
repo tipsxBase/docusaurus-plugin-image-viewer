@@ -4,6 +4,19 @@
   "description": "docusaurus插件,集成viewerjs,优化图片展示",
   "main": "./lib/index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tipsxBase/docusaurus-plugin-image-viewer.git"
+  },
+  "keywords": [
+    "docusaurus",
+    "viewerjs",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/tipsxBase/docusaurus-plugin-image-viewer/issues"
+  },
+  "homepage": "https://github.com/tipsxBase/docusaurus-plugin-image-viewer",
   "dependencies": {
     "viewerjs": "^1.11.6"
   }
