@@ -23,8 +23,6 @@ plugins: [
 ```
 themeConfig: {
     imageViewer: {
-      // 图片选择器，默认为 img
-      imageSelector: 'img',
       // 页面容器选择器，默认为 .theme-doc-markdown.markdown，只在这个容器里的图片
       containerSelector: '.theme-doc-markdown.markdown',
       // viewerjs 配置
