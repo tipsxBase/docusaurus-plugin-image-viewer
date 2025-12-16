@@ -18,9 +18,6 @@ jobs:
 
       - run: npm ci
 
-      - name: Build
-        run: npm run build # 如有构建步骤
-
       - name: Publish to npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
