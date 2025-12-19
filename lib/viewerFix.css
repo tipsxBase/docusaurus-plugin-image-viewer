@@ -1,0 +1,10 @@
+/* 
+ * Fix for viewer container positioning issue in production environments
+ * Some build tools may strip or reorder CSS rules, causing position properties to be lost
+ * https://github.com/tipsxBase/docusaurus-plugin-image-viewer/issues/2
+ */
+
+.viewer-container {
+  position: absolute !important;
+  right: 0 !important;
+}
