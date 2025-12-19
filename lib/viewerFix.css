@@ -13,18 +13,3 @@
   visibility: visible !important;
   pointer-events: auto !important;
 }
-
-/* Ensure the image inside viewer is visible and sized correctly */
-/* .viewer-canvas > img,
-.viewer-container img.viewer-move {
-  opacity: 1 !important;
-  visibility: visible !important;
-  max-width: 90% !important;
-  height: auto !important;
-} */
-
-/* Prevent accidental overlay hiding via global rules */
-/* .viewer-container * {
-  -webkit-user-select: none !important;
-  user-select: none !important;
-} */
